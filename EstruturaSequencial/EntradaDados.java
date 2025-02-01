@@ -46,5 +46,12 @@ public class EntradaDados {
                 "Impressao com printF: Seu nome é: %s, email: %s, idade: %d, altura: %.2f, sexo: %c e naturalidade Brasileira: %b ",
                 nome, email, idade, altura, sexo, nacionalidadeBrasileira);
 
+        // %s -> para String
+        // %d -> para int
+        // %f -> para float
+        // %c -> para char
+        // %b -> para boolean
+        // %.2f -> para float ou double com 2 casas decimais
+
     }
 }

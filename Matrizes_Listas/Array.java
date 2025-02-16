@@ -1,4 +1,4 @@
-package Matrizes;
+package Matrizes_Listas;
 
 public class Array {
     public static void main(String[] args) {

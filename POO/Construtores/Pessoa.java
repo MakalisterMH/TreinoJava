@@ -9,6 +9,10 @@ public class Pessoa {
     char sexo;
     boolean brasileiro;
 
+    // Construtor padrao ...
+    public Pessoa() {
+    }
+
     // Construtor com todos os atributos como parametro ...
     public Pessoa(String nome, String email, int idade, double altura, char sexo, boolean brasileiro) {
         this.nome = nome;

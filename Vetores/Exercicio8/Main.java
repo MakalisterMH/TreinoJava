@@ -15,9 +15,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite quantos numeros vai ter o vetor: ");
-        int quantidadeVator = sc.nextInt();
+        int quantidadeVetor = sc.nextInt();
 
-        int[] vetor = new int[quantidadeVator];
+        int[] vetor = new int[quantidadeVetor];
 
         for (int i = 0; i < vetor.length; i++) {
             System.out.printf("Digite o numero para o elemento %d: ", i);

@@ -7,6 +7,7 @@ import java.util.ListIterator;
 
 class MinhaLista implements List<String> {
 
+    private int proximaPosicao;
 
     private String[] elementos = new String[2];
 
@@ -74,29 +75,21 @@ class MinhaLista implements List<String> {
      */
     public boolean add(String s) {
 
-        for (int i = 0; i < elementos.length; i++) {
-            if (elementos[i] == null) {
-                elementos[i] = s;
-                return true;
-            }
+        if (proximaPosicao < elementos.length) {
+            elementos[proximaPosicao] = s;
+            proximaPosicao++;
+            return true;
+
+        } else {
+            String[] novoVetor = new String[elementos.length * 2];
+
+            System.arraycopy(elementos, 0, novoVetor, 0, elementos.length);
+
+            novoVetor[proximaPosicao] = s;
+            proximaPosicao++;
+            elementos = novoVetor;
+            return true;
         }
-
-        String[] novoVetor = new String[elementos.length * 2];
-
-        for (int i = 0; i < elementos.length; i++) {
-            novoVetor[i] = elementos[i];
-        }
-
-        for (int i = 0; i < novoVetor.length; i++) {
-            if (novoVetor[i] == null) {
-                novoVetor[i] = s;
-                elementos = novoVetor;
-                return true;
-            }
-        }
-
-        return true;
-
     }
 
     @Override

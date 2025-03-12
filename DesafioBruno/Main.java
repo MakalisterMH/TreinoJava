@@ -12,17 +12,17 @@ public class Main {
         lista.add("Vitoria");
         lista.add("Amanda");
         lista.add("Maria");
-        lista.add("Matheus");
+        lista.add("Maqsoel");
+        lista.add("Maqsoel");
+        lista.add("Maqsoel");
+        lista.add("Maqsoel");
+        lista.add("Maqsoel");
 
-        System.out.println("ANTES DE ADC COM INDEX \n \n");
 
-        lista.imprimir();
-
-        System.out.println("DPS DE ADC COM INDEX \n \n");
-
-        lista.add(2,"Bruno");
 
         lista.imprimir();
+
+
 
 
 

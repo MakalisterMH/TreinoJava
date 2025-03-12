@@ -1,7 +1,5 @@
 package Vetores.Exercicio9;
 
-import Vetores.Exercicio8.Pessoa;
-
 import java.util.Scanner;
 
 public class Main {

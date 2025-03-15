@@ -13,7 +13,7 @@ public class Main {
         int[][] matriz = new int[n][n];
 
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz.length; j++) {
+            for (int j = 0; j < matriz[i].length; j++) {   // pegar o tamanho da linha
                 System.out.println("Digite o numero q vai na linha " + i + ", e coluna " + j + ": ");
                 matriz[i][j] = sc.nextInt();
             }

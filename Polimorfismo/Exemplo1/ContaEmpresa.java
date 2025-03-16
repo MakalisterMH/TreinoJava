@@ -1,4 +1,4 @@
-package Polimorfismo;
+package Polimorfismo.Exemplo1;
 
 public class ContaEmpresa extends ContaComum {
 

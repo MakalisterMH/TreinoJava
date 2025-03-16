@@ -1,6 +1,4 @@
-package Polimorfismo;
-
-import java.sql.SQLOutput;
+package Polimorfismo.Exemplo1;
 
 public class Main {
     public static void main(String[] args) {
